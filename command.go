@@ -36,9 +36,9 @@ type expression struct {
 // substitution is a compiled, ready-to-apply s/// command.
 type substitution struct {
 	re      *regexp.Regexp
+	pattern string
 	repl    []byte
 	flags   substFlags
-	pattern string
 }
 
 // substFlags is the parsed trailing-flag set of an s/// command.

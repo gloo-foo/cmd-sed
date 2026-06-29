@@ -5,9 +5,10 @@ import (
 	"fmt"
 	"testing"
 
-	command "github.com/gloo-foo/cmd-sed"
 	"github.com/gloo-foo/testable"
 	"github.com/gloo-foo/testable/assertion"
+
+	command "github.com/gloo-foo/cmd-sed"
 )
 
 func TestSed_BasicSubstitution(t *testing.T) {

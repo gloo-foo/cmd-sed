@@ -3,8 +3,9 @@ package sed_test
 import (
 	"fmt"
 
-	command "github.com/gloo-foo/cmd-sed"
 	"github.com/gloo-foo/testable"
+
+	command "github.com/gloo-foo/cmd-sed"
 )
 
 func ExampleSed_substitute() {

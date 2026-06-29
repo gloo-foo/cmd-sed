@@ -4,8 +4,9 @@ import (
 	"slices"
 	"testing"
 
-	sed "github.com/gloo-foo/cmd-sed/alias"
 	"github.com/gloo-foo/testable"
+
+	sed "github.com/gloo-foo/cmd-sed/alias"
 )
 
 // The alias package re-exports the constructor under an unprefixed name. A
